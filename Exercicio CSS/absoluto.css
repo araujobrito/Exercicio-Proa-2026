@@ -1,45 +1,54 @@
-#azul{ 
-    position:absolute;
-    width: 200px;   
-    height: 100px;
-    background-color: blue;
-    top: 10px;
-    left: 300px;
-    color: white;
-    text-align: center;
-    z-index: 1;
+*{
+margin: 0;  
+padding: 0;
+box-sizing: border-box;     
+text-align: center;
+font-weight: 700;
+
 }
-#vermelha{
-    position:absolute;
-    width: 900px;
+#camada1{
+    background-color: rgb(0,47,255);
+    width: 300px;
     height: 100px;
-    background-color: red;
-    top: 10px;
-    left: 500px;
-    color: white;
-    text-align: center;
-    z-index: 1;
-}
- #verde{
     position: absolute;
-    width: 100px;
+    left: 220px;
+    top:10px;
+
+}
+#camada2{
+    background-color: rgb(255,0,0);
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    top:10px;
+
+}
+#camada3{
+    background-color: rgb(255,255,0);
+    width: 1080px;
     height: 50px;
-    background-color: green;
-    top: 100px;
-    left: 300px;
-    color: white;
-    text-align: center;
-    z-index: 1;
-    }
-#amarela{ 
-        position: absolute;
-        width:1000px;
-        height: 500px;
-        background-color: yellow;
-        border:10px solid red;
-        top: 140px;
-        left: 300px;
-        color: white;
-        text-align: center;
-        z-index: 1;
-    }
+    position: absolute;
+    left: 220px;
+    top: 110px;
+
+}
+#camada4{
+    background-color: rgb(255,255,0);
+    width: 1080px;
+    height: 500px;
+    position: absolute;
+    border: 10px solid red;
+    left: 220px;
+    top: 160px;
+
+}
+#camada5{
+    background-color: rgb(127,127,127);
+    width: 1080px;
+    height: 50px;
+    position: absolute;
+    left: 220px;
+    top: 660px;
+
+}
