@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+
+}
+
+#container{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    background-color: gray;
+
+}
+#camada1{
+    position: relative;
+    width: 15px;
+    height: 8px;
+    background-color: blue;
+    float: left;
+}
+#camada2{
+    position: relative;
+    width: 85px;
+    height: 8px;
+    background-color: red;
+    float: left;
+}
+#camada3{
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: green;
+    margin-top: 10.4px;
+
+}
+#camada4{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color: yellow;
+    margin-top: 10.4%;
+    border: 10px solid red;
+}
+#camada5{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color: gray;
+    margin-top: 48%;
+}
