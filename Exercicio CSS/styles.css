@@ -1,0 +1,120 @@
+/*css resert*/
+ 
+*{
+border: 0;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+font-family: verdana;
+color:#fff;
+font-size: 40px;
+text-align: center;
+}
+
+#fundo_principal{
+    position: relative;
+    width: 90%;
+    height:auto;
+    background-color: aqua;
+    margin: auto;
+
+}
+#cabecalho_pagina{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    }
+#menu_superior{
+position: relative;
+background-color: blue;
+width: 100%;
+height: 40px;
+text-align: left;
+}
+#centro{
+position: relative;
+background-color: rgb(143, 26, 80);
+width: 100%;
+height: 500px;
+display: flex;
+flex-direction: row;
+
+}
+#menu_lateral{
+position: relative;
+background-color: #cccaac;
+width: 20%;
+height: 500px;
+}
+#miolo{
+position: relative;
+background-color: rgb(42, 214, 191);
+width: 60%;
+height: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;    
+justify-content: space-between;
+}
+#cabecalho_miolo{
+position: relative;
+background-color: rgb(252, 252, 252);
+width: 95%;
+height: 30px;
+color: black;
+font-size: 20px;
+}
+#imagem{
+position: relative;
+background-color: rgb(143, 212, 31);
+width: 95%;
+height: 150px;
+}
+
+#miolo p{
+position: relative;
+background-color: rgb(103, 103, 218);
+width: 95%;
+height: 100px;
+color: black;
+text-align: left;
+font-size: 20;
+}
+#caixa{
+position: relative;
+width: 95%;
+height: 150px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.caixinhas{
+position: relative;
+background-color: #838877;
+width: 30%;
+height: 130px;
+
+}
+
+aside{
+position: relative;
+background-color: rgb(22, 80, 77);
+width: 20%;
+height: 500px;
+}
+footer{
+position: relative;
+background-color: #000;
+width: 100%;
+height: 50px;
+}
